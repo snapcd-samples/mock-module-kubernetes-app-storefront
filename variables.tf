@@ -1,3 +1,8 @@
+variable "resource_group_name" {
+  description = "Name of the resource group into which to deploy the VPC"
+  type        = string
+  default     = "myrg"
+}
 variable "database_id" {
   description = "Database ID for the application"
   type        = string
